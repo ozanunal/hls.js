@@ -498,6 +498,7 @@ export default class Hls implements HlsEventEmitter {
    * Set the source URL. Can be relative or absolute.
    */
   loadSource(url: string) {
+    console.log("AAAA");
     this.stopLoad();
     const media = this.media;
     const loadedSource = this._url;
